@@ -10,5 +10,23 @@ const create = createRoot(root);
 // import App from './App.jsx'
 // 2. 가져온 컴포넌트 렌더링
 // create.render( <App> </App>)
-import MyComponent from "./example/day02/MyComponent";
-create.render(<MyComponent></MyComponent>)
+
+// [day01] render 1번 가능하므로 예제 컴포넌트 변경
+// import MyComponent from "./example/day02/MyComponent";
+// create.render(<MyComponent></MyComponent>)
+
+// import Component1 from "./example/day02/Component1";
+// create.render(<Component1></Component1>)
+
+// import Component2 from "./example/day02/Component2";
+// create.render(<Component2></Component2>)
+
+// import Component3 from "./example/day02/Component3";
+// create.render(<Component3></Component3>)
+
+// import Component4 from "./example/day02/Component4";
+// create.render(<Component4></Component4>)
+
+import Component5 from "./example/day02/Component5";
+create.render(<Component5></Component5>)
+
