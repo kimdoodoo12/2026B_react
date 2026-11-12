@@ -54,7 +54,66 @@ const create = createRoot(root);
 // import Component3 from "./example/day04/Component3";
 // create.render(<Component3></Component3>)
 
-import Practice2 from "./example/practice2/practice2";
-create.render(<Practice2></Practice2>)
+// import Practice2 from "./example/practice2/practice2";
+// create.render(<Practice2></Practice2>)
 
 
+// // 라우터
+// import { BrowserRouter } from "react-router-dom";
+// import App from "./example/day05/App";
+// // 최초 렌더링 컴포넌트을 라우터컴포넌트로 감쌈
+// create.render(<BrowserRouter>
+//     <App/>
+// </BrowserRouter>)
+
+// import App from "./example/practice3/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(<BrowserRouter>
+//     <App></App>
+// </BrowserRouter>)
+
+// import App from "./example/day06/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//         <App/>
+//     </BrowserRouter>
+// )
+
+// import Axios from "./example/day06/Axois";
+// create.render(<Axios></Axios>)
+
+// import App from "./example/day07/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//         <App></App>
+//     </BrowserRouter>
+// )
+
+// import App from "./components/App";
+// create.render(<App></App>)
+
+// import App from "./example/day08/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(<BrowserRouter>
+//     <App></App>
+// </BrowserRouter>)
+
+// import App from "./example/day10/App"
+// import { BrowserRouter } from "react-router-dom";
+// create.render(<BrowserRouter>
+//     <App></App>
+// </BrowserRouter>)
+
+// import App from "./example/day11/App"
+// import { BrowserRouter } from "react-router-dom";
+// create.render(<BrowserRouter>
+//     <App></App>
+// </BrowserRouter>)
+
+// import ChatRoom from "./example/day15/ChatRoom";
+// create.render(<ChatRoom></ChatRoom>)
+
+import ChatBot from "./example/day16/ChatBot";
+create.render(<ChatBot></ChatBot>)

@@ -1,0 +1,10 @@
+
+통합터미널에서 npm 명령어 실행
+ex) 2026B_react에다 src 또는 example에서는 X
+
+
+리액트 프로젝트 가지고 온 경우에 npm install을 따로 해야함
+
+
+npm 라이브러리
+https://www.npmjs.com/

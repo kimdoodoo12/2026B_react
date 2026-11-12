@@ -1,0 +1,14 @@
+export default function NavEdit(props){
+    return(
+        <nav>
+            <a href="/" onClick={function(event){
+                event.preventDefault();
+                props.onBack();
+            }}>뒤로</a>{" "}
+            <a href="/" onClick={function(event){
+                event.preventDefault();
+                props.onChangeMode();
+            }}></a>
+        </nav>
+    )
+}
